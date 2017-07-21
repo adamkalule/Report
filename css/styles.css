@@ -3,31 +3,31 @@ body{
 }
 .col-md-1{
     height: 660px;
-    background-color: mediumslateblue;
+    background-color: steelblue;
 }
 .col-md-10{
     height: 660px;
 }
 h4{
     text-align: center;
-    color: mediumslateblue;
+    color: steelblue;
 }
 p{
     font-size: 11px;
 }
 .input-group{
-    width: 650px;
+    width: 600px;
     float: right;
-    margin-right: 15px;
+    margin-right: 
     height: 5px;
 }
 .col-md-4{
     background-color: white;
-    height: 480px;
+    height: 550px;
 }
 .panel-body{
     height: 115px;
-    background-color: mediumslateblue;
+    background-color: steelblue;
     color: white;
     border-radius: 10px;
 }
@@ -35,28 +35,5 @@ p{
     background-color: orange;
 }
 .btn{
-    margin-right: 5px; 
+    margin-right: 5px;
 }
-@media (min-width: 768px){
-    .col-md-1{
-        width: 50%;
-    }
-    .col-md-10{
-        width: 50%;
-    }
-   @media (min-width: 992px){
-    .col-md-1{
-        width: 100%;
-    }
-    .col-md-10{
-        width: 100%;
-    }
-       
-}
-@media (min-width: 1200px){
-    .col-md-1{
-        width: 10%;
-    }
-    .col-md-10{
-        width: 90%;
-    }
